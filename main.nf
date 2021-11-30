@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-sequences1='s3://wgs.algae.hifi/30-536540905/rawdata/fastX/CHK22.subreads.fastq.gz'
+sequences1='s3://wgs.algae.hifi/pacb.fq.gz'
 
 process correct {
 	memory '96G'
